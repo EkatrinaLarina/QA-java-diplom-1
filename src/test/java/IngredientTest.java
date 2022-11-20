@@ -23,11 +23,7 @@ public class IngredientTest {
     public static Object[][] getDataTest(){
         return new Object[][]{
                 {IngredientType.FILLING, "cutlet", 100},
-                {IngredientType.FILLING, "dinosaur", 200},
-                {IngredientType.FILLING, "sausage", 300},
-                {IngredientType.SAUCE, "hot sauce", 100},
-                {IngredientType.SAUCE, "sour cream", 200},
-                {IngredientType.SAUCE, "chili sauce", 300}
+                {IngredientType.SAUCE, "sour cream", 200}
         };
     }
 
